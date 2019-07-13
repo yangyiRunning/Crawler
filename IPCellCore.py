@@ -1,17 +1,19 @@
-# 爬取当当书籍
+# 查询IP地址
 import requests
 
+url = "https://tool.lu/search/?query="
 
-def getDang(url):
+
+def searchIPAddress():
     try:
-        r = requests.get(url)
+        r = requests.get(url + "111.199.189.211")
         print(r.status_code)
         r.raise_for_status()
         r.encoding = r.apparent_encoding
-        return r.text[:1000]
+        print(r.text)
     except:
         print("爬取失败")
 
 
 if __name__ == "__main__":
-    print(getDang("http://search.dangdang.com/?key=%B5%CD%D3%FB%CD%FB%C9%E7%BB%E1&act=input"))
+    searchIPAddress()

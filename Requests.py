@@ -1,7 +1,6 @@
+# 爬虫通用代码框架
 import requests
 
-
-# 爬虫通用代码框架
 
 def getHtmlText(url):
     try:
@@ -13,6 +12,7 @@ def getHtmlText(url):
     except:
         return "产生异常"
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     url = "https://92.91p22.space/v.php?category=mf&viewtype=basic&page=53"
     print(getHtmlText(url))
