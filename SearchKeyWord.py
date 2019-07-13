@@ -3,7 +3,7 @@ import requests
 
 def searchWord():
     try:
-        kv = {'wd', 'python'}
+        kv = {"wd", "python"}
         r = requests.get("http://www.baidu.com/s", params=kv)
         print(r.headers)
         print(r.status_code)
@@ -12,7 +12,7 @@ def searchWord():
         r.encoding = r.apparent_encoding
         return r.text
     except:
-        print("error")
+        print("爬取失败")
 
 
 if __name__ == "__main__":

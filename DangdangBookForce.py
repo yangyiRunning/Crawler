@@ -11,7 +11,7 @@ def getDangForce(url):
         r.encoding = r.apparent_encoding
         return r.text
     except:
-        print("error")
+        print("爬取失败")
 
 
 if __name__ == "__main__":

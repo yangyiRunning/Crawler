@@ -9,7 +9,7 @@ def getDang(url):
         r.encoding = r.apparent_encoding
         return r.text[:1000]
     except:
-        print("爬取发生异常")
+        print("爬取失败")
 
 
 if __name__ == "__main__":
