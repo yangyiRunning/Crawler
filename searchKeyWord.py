@@ -1,12 +1,13 @@
 import requests
 
 
-def getDangForce(url):
+def searchWord():
     try:
-        kv = {"user-agent": "Mozilla/5.0"}
-        r = requests.get(url, headers=kv)
-        print(r.request.header)
+        kv = {'wd', 'python'}
+        r = requests.get("http://www.baidu.com/s", params=kv)
+        print(r.headers)
         print(r.status_code)
+        print(r.request.url)
         r.raise_for_status()
         r.encoding = r.apparent_encoding
         return r.text
@@ -15,4 +16,4 @@ def getDangForce(url):
 
 
 if __name__ == "__main__":
-    print(getDangForce("https://www.baidu.com"))
+    searchWord()
