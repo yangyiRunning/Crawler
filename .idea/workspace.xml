@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abea75f6-6a2e-43d6-8e77-808fd3915aaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AnalysisSoup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foreachHtmlTagTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,19 +46,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IPCellCore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="336">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AnalysisSoup.py">
+        <entry file="file://$PROJECT_DIR$/foreachHtmlTagTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+            <state relative-caret-position="501">
+              <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#15#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,13 +89,15 @@
         <option value="$PROJECT_DIR$/SearchKeyWord.py" />
         <option value="$PROJECT_DIR$/IPCellCore.py" />
         <option value="$PROJECT_DIR$/AnalysisSoup.py" />
+        <option value="$PROJECT_DIR$/ForeachTagTree.py" />
+        <option value="$PROJECT_DIR$/foreachHtmlTagTree.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
+    <option name="y" value="412" />
     <option name="width" value="1680" />
-    <option name="height" value="960" />
+    <option name="height" value="956" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AnalysisSoup">
+  <component name="RunManager" selected="Python.ForeachTagTree">
     <configuration name="AnalysisSoup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +152,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AnalysisSoup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ForeachTagTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foreachHtmlTagTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,27 +223,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dangdangBook" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DangdangBook.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="searchKeyWord" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ForeachTagTree" />
         <item itemvalue="Python.AnalysisSoup" />
         <item itemvalue="Python.IPCellCore" />
         <item itemvalue="Python.PicSave" />
         <item itemvalue="Python.searchKeyWord" />
-        <item itemvalue="Python.dangdangBook" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +268,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="956" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="948" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496977" />
@@ -274,7 +276,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9550296" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.95459974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39881656" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,13 +343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IPCellCore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DangdangBookForce.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -362,12 +357,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IPCellCore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AnalysisSoup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        <state relative-caret-position="-973">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#12#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foreachHtmlTagTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
