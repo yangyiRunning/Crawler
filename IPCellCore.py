@@ -1,4 +1,5 @@
 # 查询IP地址
+
 import requests
 
 url = "https://tool.lu/search/?query="
