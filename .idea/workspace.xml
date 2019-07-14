@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abea75f6-6a2e-43d6-8e77-808fd3915aaf" name="Default Changelist" comment="" />
+    <list default="true" id="abea75f6-6a2e-43d6-8e77-808fd3915aaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DangdangBook.py" beforeDir="false" afterPath="$PROJECT_DIR$/DangdangBook.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnalysisSoup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="120">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="e#12#27#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DangdangBook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -91,7 +102,6 @@
         <option value="$PROJECT_DIR$/dangdangBook.py" />
         <option value="$PROJECT_DIR$/dangdangBookForce.py" />
         <option value="$PROJECT_DIR$/searchKeyWord.py" />
-        <option value="$PROJECT_DIR$/DangdangBook.py" />
         <option value="$PROJECT_DIR$/DangdangBookForce.py" />
         <option value="$PROJECT_DIR$/PicSave.py" />
         <option value="$PROJECT_DIR$/Requests.py" />
@@ -103,6 +113,7 @@
         <option value="$PROJECT_DIR$/FindTag.py" />
         <option value="$PROJECT_DIR$/TopUniversity.py" />
         <option value="$PROJECT_DIR$/AnalysisSoup.py" />
+        <option value="$PROJECT_DIR$/DangdangBook.py" />
       </list>
     </option>
   </component>
@@ -406,13 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DangdangBook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Requests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -429,11 +433,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AnalysisSoup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="120">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding>
             <element signature="e#12#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DangdangBook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
