@@ -12,6 +12,8 @@ import re
 def searchPostCard():
     try:
         # 在一个字符串中搜索匹配正则表达式的第一个位置，返回match对象
+        # regex = re.compile(r"[1-9]\d{5}")
+        # print(regex.search("BIT 100081"))
         match = re.search(r"[1-9]\d{5}", "BIT 100081")
         if match:
             # 获得匹配后的字符串
