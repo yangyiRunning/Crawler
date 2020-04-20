@@ -1,1 +1,16 @@
 # 简单的几个爬虫小示例
+
+1. [bs4解析库的使用](AnalysisSoup.py)
+2. [爬取当当书籍](DangdangBook.py)
+3. [通过篡改headers的方式爬取当当书籍](DangdangBookForce.py)
+4. [基于bs4库的HTML内容查找方法](FindTag.py)
+5. [查询IP地址](IPCellCore.py)
+6. [保存图片至本地](PicSave.py)
+7. [正则表达式的使用](ReHello.py)
+8. [爬虫通用代码框架](Requests.py)
+9. [通过百度搜索引擎查询关键词](SearchKeyWord.py)
+10. [爬取上交所和深交所所有股票数据](StockChina.py)
+11. [提取HTML中的所有URL链接](TagMsg.py)
+12. [淘宝商品比较定向爬虫](TaobaoSearch.py)
+13. [爬取最好大学网上的大学排名信息(定向爬虫)](TopUniversity.py)
+14. [对HTML标签树的遍历](foreachHtmlTagTree.py)
